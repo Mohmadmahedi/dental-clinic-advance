@@ -191,7 +191,7 @@ export function Footer() {
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-primary-400 shrink-0" />
                 <a
-                  href={`tel:${CLINIC_INFO.phone}`}
+                  href={CLINIC_INFO.phoneTel}
                   className="text-white hover:text-primary-300 font-semibold"
                 >
                   {CLINIC_INFO.phone}

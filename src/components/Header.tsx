@@ -72,7 +72,7 @@ export function Header() {
               <span>New Patient Offer: ₹499 Checkup</span>
             </span>
             <a
-              href={`tel:${CLINIC_INFO.phone}`}
+              href={CLINIC_INFO.phoneTel}
               className="text-white hover:text-primary-300 font-semibold flex items-center gap-1.5 transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-primary" />
@@ -148,7 +148,7 @@ export function Header() {
           {/* Header Action CTA Buttons */}
           <div className="hidden sm:flex items-center space-x-3">
             <a
-              href={`tel:${CLINIC_INFO.phone}`}
+              href={CLINIC_INFO.phoneTel}
               className="hidden md:flex items-center gap-2 text-sm font-semibold text-navy-800 hover:text-primary transition-colors px-3 py-2"
             >
               <Phone className="w-4 h-4 text-primary" />
@@ -276,7 +276,7 @@ export function Header() {
 
                 <div className="space-y-2 pt-2 text-xs text-navy-600">
                   <a
-                    href={`tel:${CLINIC_INFO.phone}`}
+                    href={CLINIC_INFO.phoneTel}
                     className="flex items-center gap-2 font-medium text-navy-800 hover:text-primary py-1"
                   >
                     <Phone className="w-4 h-4 text-primary" />

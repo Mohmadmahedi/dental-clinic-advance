@@ -104,14 +104,20 @@ export default function ContactPage() {
                     <p className="text-xs sm:text-sm text-navy-600 mt-1">
                       Direct Line:{" "}
                       <a
-                        href={`tel:${CLINIC_INFO.phone}`}
+                        href={CLINIC_INFO.phoneTel}
                         className="font-bold text-navy-900 hover:text-primary"
                       >
                         {CLINIC_INFO.phone}
                       </a>
                     </p>
                     <p className="text-xs text-red-600 font-medium mt-1">
-                      24/7 Dental Emergency: {CLINIC_INFO.emergencyPhone}
+                      24/7 Dental Emergency:{" "}
+                      <a
+                        href={CLINIC_INFO.emergencyPhoneTel}
+                        className="font-bold hover:underline"
+                      >
+                        {CLINIC_INFO.emergencyPhone}
+                      </a>
                     </p>
                   </div>
                 </div>

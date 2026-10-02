@@ -62,7 +62,7 @@ export default function PricingPage() {
               Book an Appointment
             </Button>
             <Button
-              href={`tel:${CLINIC_INFO.phone}`}
+              href={CLINIC_INFO.phoneTel}
               variant="white"
               size="md"
               leftIcon={<Phone className="w-4 h-4 text-primary" />}

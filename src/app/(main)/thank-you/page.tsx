@@ -154,7 +154,7 @@ function ThankYouContent() {
         <p>{CLINIC_INFO.address.full}</p>
         <p>
           Front Desk:{" "}
-          <a href={`tel:${CLINIC_INFO.phone}`} className="text-primary font-bold">
+          <a href={CLINIC_INFO.phoneTel} className="text-primary font-bold">
             {CLINIC_INFO.phone}
           </a>
         </p>

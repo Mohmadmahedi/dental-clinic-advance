@@ -63,7 +63,7 @@ export default function NotFound() {
         <div className="pt-6 border-t border-slate-100 text-xs text-navy-500 space-y-2">
           <p>Need urgent assistance? Call our Indiranagar reception desk:</p>
           <a
-            href={`tel:${CLINIC_INFO.phone}`}
+            href={CLINIC_INFO.phoneTel}
             className="inline-flex items-center gap-1.5 font-bold text-navy-900 hover:text-primary transition-colors text-sm"
           >
             <Phone className="w-4 h-4 text-primary" />

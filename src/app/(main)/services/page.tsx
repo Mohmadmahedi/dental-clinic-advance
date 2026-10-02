@@ -56,7 +56,7 @@ export default function ServicesPage() {
               Book an Appointment
             </Button>
             <Button
-              href={`tel:${CLINIC_INFO.phone}`}
+              href={CLINIC_INFO.phoneTel}
               variant="white"
               size="md"
               leftIcon={<Phone className="w-4 h-4 text-primary" />}
@@ -156,7 +156,7 @@ export default function ServicesPage() {
 
             <div className="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto">
               <Button
-                href={`tel:${CLINIC_INFO.emergencyPhone}`}
+                href={CLINIC_INFO.emergencyPhoneTel}
                 variant="amber"
                 size="lg"
                 className="w-full sm:w-auto font-bold shadow-amber"

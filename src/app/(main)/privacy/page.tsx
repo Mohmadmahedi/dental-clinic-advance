@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
             4. Contact Our Privacy Officer
           </h2>
           <p>
-            For any inquiries regarding your health records or privacy rights, please contact our clinic administrative desk at <a href={`mailto:${CLINIC_INFO.email}`} className="text-primary font-bold">{CLINIC_INFO.email}</a> or call us at <a href={`tel:${CLINIC_INFO.phone}`} className="text-primary font-bold">{CLINIC_INFO.phone}</a>.
+            For any inquiries regarding your health records or privacy rights, please contact our clinic administrative desk at <a href={`mailto:${CLINIC_INFO.email}`} className="text-primary font-bold">{CLINIC_INFO.email}</a> or call us at <a href={CLINIC_INFO.phoneTel} className="text-primary font-bold">{CLINIC_INFO.phone}</a>.
           </p>
         </div>
       </div>

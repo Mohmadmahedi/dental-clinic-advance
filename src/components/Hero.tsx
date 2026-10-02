@@ -70,7 +70,7 @@ export function Hero() {
               </Button>
 
               <Button
-                href={`tel:${CLINIC_INFO.phone}`}
+                href={CLINIC_INFO.phoneTel}
                 variant="white"
                 size="lg"
                 className="w-full sm:w-auto text-base border-slate-200"

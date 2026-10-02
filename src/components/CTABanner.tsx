@@ -44,7 +44,7 @@ export function CTABanner() {
             </Button>
 
             <Button
-              href={`tel:${CLINIC_INFO.phone}`}
+              href={CLINIC_INFO.phoneTel}
               variant="outline"
               size="lg"
               className="w-full sm:w-auto text-base text-white border-white/30 hover:bg-white/10 hover:border-white"

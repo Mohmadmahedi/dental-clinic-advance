@@ -11,7 +11,7 @@ export function MobileCallBar() {
       <div className="grid grid-cols-3 gap-2 items-center">
         {/* Call Now */}
         <a
-          href={`tel:${CLINIC_INFO.phone}`}
+          href={CLINIC_INFO.phoneTel}
           className="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl bg-slate-50 text-navy-800 border border-slate-200 text-xs font-semibold active:scale-95 transition-transform"
         >
           <Phone className="w-4 h-4 text-primary mb-0.5" />

@@ -91,7 +91,7 @@ export default function BookAppointmentPage() {
                   Severe tooth throbbing, facial swelling, or knocked-out tooth trauma? Skip the form and call our emergency surgeon right now.
                 </p>
                 <a
-                  href={`tel:${CLINIC_INFO.emergencyPhone}`}
+                  href={CLINIC_INFO.emergencyPhoneTel}
                   className="inline-flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-white text-red-700 font-bold text-sm shadow-md hover:bg-red-50 transition-colors"
                 >
                   <Phone className="w-4 h-4 text-red-600" />

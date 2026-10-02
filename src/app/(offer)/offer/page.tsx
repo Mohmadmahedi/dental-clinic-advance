@@ -87,7 +87,7 @@ export default function OfferLandingPage() {
 
           {/* Click to Call Button */}
           <a
-            href={`tel:${CLINIC_INFO.phone}`}
+            href={CLINIC_INFO.phoneTel}
             className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-navy-900 font-bold text-xs sm:text-sm transition-colors"
           >
             <Phone className="w-4 h-4 text-primary" />
@@ -334,7 +334,7 @@ export default function OfferLandingPage() {
               Claim ₹499 Checkup Above
             </a>
             <a
-              href={`tel:${CLINIC_INFO.phone}`}
+              href={CLINIC_INFO.phoneTel}
               className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm border border-white/20 transition-colors"
             >
               Call {CLINIC_INFO.phone}
@@ -349,7 +349,7 @@ export default function OfferLandingPage() {
           BrightSmile Dental Clinic • Plot No. 428, 12th Main Road, HAL 2nd Stage, Indiranagar, Bengaluru
         </p>
         <p>
-          Direct Line: <a href={`tel:${CLINIC_INFO.phone}`} className="text-primary-300 font-bold">{CLINIC_INFO.phone}</a> | Emergency: {CLINIC_INFO.emergencyPhone}
+          Direct Line: <a href={CLINIC_INFO.phoneTel} className="text-primary-300 font-bold">{CLINIC_INFO.phone}</a> | Emergency: <a href={CLINIC_INFO.emergencyPhoneTel} className="text-primary-300 font-bold">{CLINIC_INFO.emergencyPhone}</a>
         </p>
         <div className="flex items-center justify-center gap-4 pt-2 text-[11px]">
           <Link href="/privacy" className="hover:text-white transition-colors">

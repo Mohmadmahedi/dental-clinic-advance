@@ -4,8 +4,10 @@ export const CLINIC_INFO = {
   shortDescription:
     "Bengaluru's leading multispecialty dental clinic offering world-class, gentle, and transparent oral healthcare with state-of-the-art European technology.",
   phone: "+91 98765 43210",
+  phoneTel: "tel:+919876543210",
   phoneFormatted: "+91 (080) 4567 8900",
   emergencyPhone: "+91 98765 43211",
+  emergencyPhoneTel: "tel:+919876543211",
   whatsappNumber: "919876543210",
   whatsappUrl:
     "https://wa.me/919876543210?text=Hi%20BrightSmile%20Dental%2C%20I%20would%20like%20to%20schedule%20an%20appointment.",

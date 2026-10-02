@@ -156,7 +156,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
                 </Button>
 
                 <Button
-                  href={`tel:${CLINIC_INFO.phone}`}
+                  href={CLINIC_INFO.phoneTel}
                   variant="white"
                   size="lg"
                   className="w-full sm:w-auto"
